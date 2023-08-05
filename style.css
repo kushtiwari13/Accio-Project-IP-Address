@@ -1,0 +1,221 @@
+body {
+  padding: 10px;
+  background-color: #008080;
+  /* Teal color */
+  color: #fff;
+  /* White color for text */
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+table {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  /* White color for text */
+}
+
+#city,
+#region,
+#organisation,
+#hostname {
+  padding-left: 12rem;
+  color: #fff;
+  /* White color for text */
+}
+
+#above-map {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#below-map {
+  margin-top: 2rem;
+  font-size: 24px;
+}
+
+#btn {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #008080;
+  /* Teal color */
+  color: #fff;
+  /* White color for text */
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #006666;
+  /* Darker Teal color on hover */
+  color: #fff;
+  /* White color for text */
+}
+
+#card {
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 150px;
+  /* Set a fixed height for the cards */
+  background-color: #006666;
+  /* Darker Teal color */
+  color: #fff;
+  /* White color for text */
+}
+
+#post-office-list {
+  display: flex;
+  flex-direction: column;
+  /* Change the display to flex and flex-direction to column */
+  margin-top: 20px;
+  color: #fff;
+  /* White color for text */
+  font-size: 20px;
+}
+
+#post-office-list .card {
+  width: 100%;
+  /* Set the width of the cards to 100% */
+  margin-bottom: 10px;
+}
+
+
+#search-box input {
+  border: 1px solid #555;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #008080;
+  /* Teal color */
+  color: #fff;
+  /* White color for text */
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#search-input::placeholder {
+  width: max-content;
+  margin: 20px;
+  padding-left: 20px;
+  background-image: url('search-icon.svg');
+  background-repeat: no-repeat;
+  text-indent: 10px;
+  color: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#search-input {
+  padding: 10px 40px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  font-size: 18px;
+  outline: none;
+  background-color: #008080;
+  /* Teal color */
+  color: #fff;
+  /* White color for text */
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  /* White color for text */
+  border-radius: 5px;
+  font-size: 16px;
+  animation: spin 1s linear infinite;
+}
+
+.searchbar>span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+#post-office-heading,
+#more-info,
+#location {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #fff;
+  /* White color for text */
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#post-office-heading h2,
+#more-info h2,
+#location h2 {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.main {
+  max-width: 95%;
+  height: 95%;
+}
+
+.container {
+  display: flex;
+  height: 20%;
+}
+
+.section1,
+.section2 {
+  flex: 1;
+  padding: 15px;
+}
+
+.section1 {
+  background-color: #008080;
+  /* Teal color */
+  color: #fff;
+  /* White color for text */
+}
+
+.section2 {
+  background-color: #ffd700;
+  /* Gold color */
+  text-align: center;
+  padding-top: 10%;
+  color: #000;
+  /* Black color for text on Gold background */
+}
+
+
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  color: #fff;
+  /* White color for text */
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+
+
+/* Add the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
